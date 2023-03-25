@@ -21,11 +21,18 @@ body {
   box-sizing: border-box;
 }
 
-.banner-img {
-  background-image: url("./img/BG_Banner.webp");
-  width: 1522px;
-  height: 655px;
-  background-repeat: no-repeat;
-  /* background-position: ; */
-  background-size: auto;
+@media only screen and (max-width: 600px) {
+  .banner-logo {
+    height: 878px !important;
+    border-radius: 20px;
+  }
+}
+
+.social:hover {
+  color: #0e8740;
+}
+
+.item:hover {
+  color: #0e8740;
+  cursor: pointer;
 }

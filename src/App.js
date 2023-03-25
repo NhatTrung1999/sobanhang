@@ -9,8 +9,8 @@ function App() {
       <Banner />
       <Container>
         <Divider />
-        <Content />
       </Container>
+      <Content />
     </>
   );
 }
